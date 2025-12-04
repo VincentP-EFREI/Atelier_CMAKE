@@ -15,4 +15,10 @@ double _mul(double a, double b) {
 double _div(double a, double b) {
 	return a/b;
 }
-	
+
+double _pow(int a, int b) {
+	for(int i = 0; i < b-1; i++) {
+		a *= a
+	}
+	return a;
+}
